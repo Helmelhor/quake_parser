@@ -44,4 +44,4 @@ def list_games():
 
 @app.get("/")
 def root():
-    return {"msg": "API Quake Parser. Use /games ou /games/{id}"}
+    return {"Bem Vindo!!": "API Quake Parser. Use /games ou /games/{id}"}
