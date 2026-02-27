@@ -6,7 +6,7 @@ import plotly.express as px
 class QuakeDashboard:
 	
 	def __init__(self):
-		self.api_url_ranking = "https://quake-parser.onrender.com/ranking"
+		self.api_url_ranking = "https://quake-parser.onrender.com/games/ranking"
 		self.api_url_games = "https://quake-parser.onrender.com/games"
 		self.api_url_game = "https://quake-parser.onrender.com/games/{}"
 		self.visualizacao = None
